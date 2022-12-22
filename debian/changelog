@@ -1,0 +1,72 @@
+python-requestsexceptions (1.4.0-3) unstable; urgency=medium
+
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 17 Jul 2019 00:20:45 +0200
+
+python-requestsexceptions (1.4.0-2) experimental; urgency=medium
+
+  * Removed Python 2 support.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 27 Mar 2019 12:50:48 +0100
+
+python-requestsexceptions (1.4.0-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/control: Use team+openstack@tracker.debian.org as maintainer
+
+  [ Thomas Goirand ]
+  * New upstream release.
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 04 Sep 2018 00:24:22 +0200
+
+python-requestsexceptions (1.3.0-3) unstable; urgency=medium
+
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 01 Nov 2017 22:32:30 +0000
+
+python-requestsexceptions (1.3.0-2) experimental; urgency=medium
+
+  * Fixed pbr version in (build-)depends (Closes: #877875).
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 07 Oct 2017 12:06:52 +0200
+
+python-requestsexceptions (1.3.0-1) experimental; urgency=medium
+
+  [ Ondřej Nový ]
+  * Fixed VCS URLs (https).
+  * d/rules: Changed UPSTREAM_GIT protocol to https
+
+  [ Daniel Baumann ]
+  * Updating vcs fields.
+  * Updating copyright format url.
+  * Running wrap-and-sort -bast.
+  * Updating maintainer field.
+  * Updating standards version to 4.0.0.
+  * Removing gbp.conf, not used anymore or should be specified in the
+    developers dotfiles.
+  * Updating standards version to 4.0.1.
+  * Updating standards version to 4.1.0.
+
+  [ Thomas Goirand ]
+  * New upstream release.
+  * Using pkgos-dh_auto_{install}.
+  * Fix spelling mistake in long desc.
+  * Fixed debian/copyright.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 04 Oct 2017 14:20:29 +0200
+
+python-requestsexceptions (1.1.2-1) unstable; urgency=medium
+
+  * New release.
+  * Fix dependencies.
+
+ -- Ivan Udovichenko <iudovichenko@mirantis.com>  Tue, 12 Jan 2016 00:40:34 +0200
+
+python-requestsexceptions (1.1.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #806429)
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 27 Nov 2015 12:21:09 +0100
